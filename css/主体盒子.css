@@ -1,0 +1,52 @@
+/* CSS Document */
+/**/
+.tabox{
+	margin: 200px 20px 80px 0; 
+/*	text-align: center;*/
+	display:inline-block;
+	height: 70px;
+	width: 300px;
+/*	background: #747474;*/
+}
+.taimg{
+	float: left;
+	margin: 0 10px 0 0;
+	height: 60px;
+	border-radius: 50%;
+	position:relative;
+}
+.bt{
+	height: 70px;
+	width: 300px;
+	float: right;
+	padding: 2px 5px;
+	margin-top: 2px;
+	font-family: "微软雅黑";
+	font-size: 13px;
+	text-align: left;
+	color:#4D4D4D;
+}
+.bt:hover{
+	color:#000000;
+	font-size: 15px;
+	transition: .5s;
+}
+.bt:hover a{
+	color:#070045;
+	font-size: 25px;
+	transition: .5s;
+}
+.bt:hover img{
+	height: 70px;
+	transition: .5s;
+}
+.bt a{
+	color: #000000;
+	font-size: 20px;
+	text-decoration: none;
+}
+.byu{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #353535;
+}

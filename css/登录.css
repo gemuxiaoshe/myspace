@@ -1,0 +1,321 @@
+/* CSS Document */
+/*通配符选择器，清除整体网页界面默认布局格式*/
+*{
+	margin: 0;
+	padding:0;
+	boder:0;
+}
+
+/*首页登录背景设置*/
+.bj{
+	position: relative;
+	background-image: url(../imgs/bg.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*登录按钮头像样式设置*/
+
+.butx{
+	padding: 0;
+	border: 0;
+	display: block; 
+	height: 80px;
+	width: 80px;
+	position:relative;
+    margin: auto;
+	top:360px;
+	opacity: 0.7;
+	background-image: url(../imgs/头像1.PNG);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%; /*圆角边框*/
+/*	阴影设置*/
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+	cursor: pointer;/*鼠标样式*/
+	
+}
+
+/*登录透明盒子设置*/
+.box{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0,);
+	background-color: rgba(0,0,0,0.4);
+/*	padding-top: 60px;*/
+}
+/*登录白盒子设置*/
+.box2{
+	display: block;
+	margin: auto;
+	margin-top: 260px;
+	height: 420px;
+	width: 450px;
+	background-color:#FEFEFE;
+	border-radius: 3px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+	opacity: 0.92;
+}
+
+/*登录小盒子设置放置头像和点击关闭的x符号*/
+.box3{
+	text-align: center;
+	margin: 24px 0 60px 0;
+	position: relative;
+	top:14px;
+	background:#233869;
+}
+/*控制关闭符号x的样式*/
+.close{
+	
+	position: absolute;
+    right: 15px;
+    top: 0;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+	cursor: pointer;
+	color: aliceblue;
+}
+/*头像图片样式设置*/
+.imgtx{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+}
+.box4{
+	position: relative;
+	padding-left: 24px;
+	margin: 30px 0 12px 0;
+/*	background: #F1ECEC;*/
+}
+/**/
+.box4 b{
+	font-family: "微软雅黑";
+	font-weight: 100;
+	color:#1F1F1F;
+}
+.box4 input{
+	margin-top: 5px;
+/*	padding: 5px;*/
+	width: 400px;
+	height: 35px;
+/*	border:thin #5B5757 solid;*/
+	border:0;
+/*	border-bottom: thin #514F4F solid;*/
+	border-radius: 3px;
+	background: #DEE6FA;	
+}
+.box4 input:hover{
+	opacity: 0.8;
+	transition: 1s;
+	
+	
+}
+.box4 input:focus{
+	
+	background:#EDEFF2;
+	transition: 1s;
+}
+
+
+/*登录按钮样式设置*/
+.box4 button{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: aliceblue;
+	margin: 25px 0 12px 0;
+	display: block;
+	height: 35px;
+	width: 403px;
+	border: 0;
+	background:#283D72;
+	border-radius: 3px;
+	
+}
+
+.box4 button:hover{
+	opacity: 0.7;
+	transition: .5s;
+}
+
+
+/*第五个盒子的样式设置，在最下方作为版权显示*/
+.box5{
+	text-align: center;
+	margin: 20px 0 12px 0;
+	background:#F1F1F1;	
+}
+
+b{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	font-weight: 100;
+}
+
+a{
+	text-decoration: none;
+	color:#121929;
+}
+a:hover{
+	
+	opacity: 0.5;
+	color: #5E8FD0;
+	transition: .5s;
+}
+
+
+
+.us{
+	display: block; 
+	height: 80px;
+	width: 80px;
+	position:relative;
+    margin: auto;
+	top:350px;
+	opacity: 0.7;
+	border-radius: 50%; /*圆角边框*/
+/*	阴影设置*/
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+/*	visibility:hidden;*/
+	z-index:1;
+}
+
+
+.us:hover{
+	height: 90px;
+	width: 90px;
+	top: 400px;
+	opacity: 1;
+	transition: .5s;
+}
+
+.butx:hover {
+	height: 90px;
+	width: 90px;
+	top: 300px;
+	opacity:1;
+	transition: .5s;
+}
+
+/*tbox隐藏式盒子设置*/
+
+/*-----------------------------*/
+
+.dropdown {
+/*	background: #000000;*/
+  position: relative;
+/*  display: inline-block;*/
+	display: block;
+	height: 90px;
+	width: 90px;
+    margin: auto;
+/*	top:100px;*/
+}
+.dropdown-content {
+  font-family: "微软雅黑";
+  color:#F1F1F1;
+  font-size: 10px;
+  display: none;
+/*display:inline-block;*/
+  position:absolute;
+  top:500px;
+padding-left: 4px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+	font-size: 20px;
+	transition: .5s;
+}
+
+/*------------------------------*/
+
+.dropdown-content1 {
+  font-family: "微软雅黑";
+  color:#F1F1F1;
+  font-size: 10px;
+  display: none;
+/*    display:inline-block;*/
+  position:absolute;
+  top:300px;
+  padding-left: 26px;
+}
+.dropdown:hover .dropdown-content1 {
+  display: block;
+	font-size: 20px;
+	top:400px;
+	transition: .5s;
+}
+
+/*--------头部-----------------*/
+.tb{
+/*	margin: 30px 0 20px 0;*/
+	width:100%;
+	height: 180px;
+	
+	background: #04060A;
+	position: absolute;
+	opacity: 0.9;
+	z-index: 1;
+}
+.tb1{
+	display: block;
+	width: 100%;
+	height: 20px;
+	background: #141B31;
+	
+}
+.tb h1{
+	font-family: "微软雅黑";
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 140px;
+	text-align: center;
+	color: aliceblue;	
+}
+/*-------------尾部-------------------*/
+.wb{
+	height: 70px;
+	width: 100%;
+	background: #182538;
+	position: relative;
+	top:650px;
+}
+.wb1{
+	position: relative;
+	display: block;
+	height: 20px;
+	width: 100%;
+	background: #121A2C;
+	top:50px;
+}
+/*-------------版权盒子设置-----------------------*/
+.banq{
+	position:relative;
+	top:-15px;
+	left:43%;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+}
+.banq b{
+	color:aliceblue;
+	opacity: 0.6;
+}
+.banq a{
+	text-decoration: none;
+	color:#121929;
+}
+.banq a:hover{
+	
+	opacity: 0.5;
+	color: #5E8FD0;
+	transition: .5s;
+}

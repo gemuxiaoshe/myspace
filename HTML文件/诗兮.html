@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<link rel="stylesheet" href="../css/首页.css">
+	<script>
+	function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginRight = "300px";
+    document.getElementById("weib").style.marginRight ="300px";
+	document.getElementById("zbox").style.marginRight ="300px";	
+	document.getElementById("dh").style.marginLeft = "1%";	
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginRight = "0";
+	document.getElementById("weib").style.marginRight = "0";
+	document.getElementById("zbox").style.marginRight ="0";	
+    document.getElementById("dh").style.marginLeft = "20%";	
+}
+	</script>
+</head>
+
+<body>
+	<div id="mySidenav" class="sidenav">
+	<div class="tx"></div>
+	<p class="name">葛木小舍先生</p>
+	<div class="zym">
+		<p>不管过去过的如何，现在活的如何，将来将会如何。努力做好自己，朝梦想中的自己努力前进。</p>
+		<a>分类</a>
+		<a>标签</a>
+	  </div>	
+	<div class="gr">
+		<a href="https://github.com/" class="gra">&middot;GitHub</a>
+		<a href="https://weibo.com" class="gra">&middot;weibo</a>
+		<a href="https://gemuxiaoshe.github.io/" class="gra">&middot;Blog</a>
+		</div>
+	<div class="shouj">
+		<h4>个人收集站</h4>
+		<a href="http://www.w3school.com.cn/">W3Cschool</a>
+		<a href="http://www.alloyteam.com/">web前端导航</a>
+		<a href="http://www.itcast.cn/">传智播客</a>
+		<a href="http://5sing.kugou.com/">5sing</a>
+		<a href="http://www.mikecrm.com/">麦客CRM</a>
+		<a href="http://www.51cto.com/">51CTO</a>
+		<a href="http://www.runoob.com/">菜鸟教程</a>
+	</div>
+	<span onclick="closeNav()" class="close">&times;</span>
+</div>
+
+<!---  头部盒子	-->
+	
+<div id="main">
+ <div class="tou">
+	 <span onclick="openNav()">&#9776;</span>
+	  <h1>葛木小舍先生的个人空间</h1>
+	<div id="dh" class="dhbox"> 
+	 <a href="首页.html">首页</a>
+	 <a>分类</a>
+	 <a>标签</a>
+	 <a href="登录.html">退出登录</a></div>
+</div>
+</div>
+<!--主盒子------>
+<div id="zbox">
+	
+	</div>	
+	
+<!--	尾部盒子----->
+<div class="wb" id="weib">	
+<div class="banq">
+	<b>&copy;葛木小舍先生</b><br>
+	<a href="https://gemuxiaoshe.github.io/"><b>power by 葛木小舍</b></a>
+</div>
+</div>
+ 
+	
+</body>
+</html>
